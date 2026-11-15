@@ -11,7 +11,6 @@ AFF = {
     "s00000014546025": "https://px.a8.net/svt/ejp?a8mat=4BGMK5+757AVU+348K+44UKYA",
     "s00000014546023": "https://px.a8.net/svt/ejp?a8mat=4BGMK5+6XGO0Q+348K+3SXWUQ",
     "s00000017964001": "https://px.a8.net/svt/ejp?a8mat=4BGMK5+6UHHZU+3UM0+5YRHE",
-    "s00000024354003": "https://px.a8.net/svt/ejp?a8mat=4BGMK5+6W9ST6+57X0+HVFKY",
     "s00000000979014": "https://px.a8.net/svt/ejp?a8mat=4BGMK5+6AU716+7JY+2BCWEQ",
     "s00000022801001": "https://px.a8.net/svt/ejp?a8mat=4BGMK5+6WV8EY+4VXM+5YRHE",
 }
@@ -66,16 +65,6 @@ NEW_CARDS = {
     </article>
 """,
     "sim.html": """
-    <article class="program">
-      <div class="program-head"><h3>REN SIM（レンシム）</h3><span class="tag">短期利用</span></div>
-      <dl class="row"><dt>向いている人</dt><dd>1か月だけ、契約なしでSIMを使いたい人</dd></dl>
-      <dl class="row"><dt>種別</dt><dd>レンタルSIM</dd></dl>
-      <ul>
-        <li>契約不要で1か月から借りられる</li>
-        <li>旅行・一時利用・予備回線に向く</li>
-      </ul>
-      <a class="btn" data-aff data-pid="s00000024354003" href="https://px.a8.net/svt/ejp?a8mat=4BGMK5+6W9ST6+57X0+HVFKY">公式サイトで最新の条件を見る<span class="arrow">›</span></a>
-    </article>
 
     <article class="program">
       <div class="program-head"><h3>BB.exciteモバイル Fit</h3><span class="tag">低容量</span></div>

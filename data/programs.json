@@ -28,21 +28,6 @@
           "linkStatus": "提携済み（A8実リンク）"
         },
         {
-          "name": "REN SIM（レンシム）",
-          "pid": "s00000024354003",
-          "kind": "レンタルSIM",
-          "bestFor": "1か月だけ、契約なしでSIMを使いたい人",
-          "notes": [
-            "契約不要で1か月から借りられる",
-            "旅行・一時利用・予備回線に向く"
-          ],
-          "priceHint": null,
-          "verifiedAt": null,
-          "cta": "https://px.a8.net/svt/ejp?a8mat=4BGMK5+6W9ST6+57X0+HVFKY",
-          "affiliate": true,
-          "linkStatus": "提携済み（A8実リンク）"
-        },
-        {
           "name": "BB.exciteモバイル Fit",
           "pid": "s00000000979014",
           "kind": "格安SIM（docomo回線）",
