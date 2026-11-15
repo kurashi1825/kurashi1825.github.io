@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>固定費チェック計算機｜月の支払いを年間で見る｜くらし比較ラボ</title>
+<meta name="description" content="スマホ・回線・カード・教材の月額を入れるだけで、年間の支払額と見直し余地の目安を計算できます。入力内容は送信されません。">
+<link rel="canonical" href="https://kurashi-hikaku-lab.github.io/tools/fixed-cost-check.html">
+<link rel="icon" href="../assets/img/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../assets/css/style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebApplication","name":"固定費チェック計算機","applicationCategory":"FinanceApplication","operatingSystem":"Web","inLanguage":"ja","offers":{"@type":"Offer","price":"0","priceCurrency":"JPY"}}
+</script>
+<style>
+  .calc { background:#fff; border:1px solid var(--line); border-radius:var(--radius); padding:16px; box-shadow:var(--shadow); }
+  .calc fieldset { border:0; margin:0; padding:0; }
+  .calc label { display:block; font-size:13.5px; font-weight:700; margin:12px 0 4px; }
+  .calc input[type="number"] {
+    width:100%; padding:11px 12px; font-size:16px; border:1px solid #cfd6d4; border-radius:10px;
+    background:#fff; color:var(--ink); font-family:var(--font);
+  }
+  .calc input[type="number"]:focus { outline:2px solid var(--accent); outline-offset:1px; border-color:var(--accent); }
+  .calc .hint { font-size:12px; color:var(--ink-soft); margin:4px 0 0; }
+  .result { margin-top:18px; background:var(--accent-soft); border-radius:12px; padding:14px 16px; }
+  .result dl { display:flex; justify-content:space-between; gap:12px; margin:6px 0; font-size:14.5px; }
+  .result dt { color:#123b34; }
+  .result dd { margin:0; font-weight:700; font-variant-numeric: tabular-nums; }
+  .result .total dd { font-size:20px; color:var(--accent-dark); }
+</style>
+</head>
+<body>
+<a class="skip" href="#main">本文へ</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../"><img class="brand-mark" src="../assets/img/logo.svg" alt="" width="26" height="26"><span class="brand-text">くらし比較ラボ</span></a>
+    <nav class="site-nav" aria-label="カテゴリ">
+      <a href="../categories/sim.html">スマホ</a>
+      <a href="../categories/wifi.html">回線</a>
+      <a href="../categories/card.html">カード</a>
+      <a href="../categories/education.html">学び</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="wrap">
+  <nav class="breadcrumb" aria-label="パンくず"><a href="../">ホーム</a><span>›</span>固定費チェック計算機</nav>
+  <div class="hero">
+    <h1>固定費チェック計算機</h1>
+    <p class="lead">毎月の支払いを入れると、年間でいくら払っているかが分かります。入力内容はサーバーに送信されません（お使いの端末内だけで計算します）。</p>
+  </div>
+
+  <section class="calc" aria-labelledby="calc-title">
+    <h2 class="sec" id="calc-title">月額を入れてください</h2>
+    <form id="calc-form" novalidate>
+      <fieldset>
+        <legend class="visually-hidden">毎月の固定費</legend>
+        <label for="mobile">スマホ代（円／月）</label>
+        <input id="mobile" name="mobile" type="number" inputmode="numeric" min="0" step="10" placeholder="例：7000">
+        <p class="hint">端末の分割払いを含めた合計で入れると正確です。</p>
+
+        <label for="net">自宅のインターネット代（円／月）</label>
+        <input id="net" name="net" type="number" inputmode="numeric" min="0" step="10" placeholder="例：4000">
+
+        <label for="card">カードの年会費（円／年）</label>
+        <input id="card" name="card" type="number" inputmode="numeric" min="0" step="100" placeholder="例：0">
+
+        <label for="lesson">習い事・教材（円／月）</label>
+        <input id="lesson" name="lesson" type="number" inputmode="numeric" min="0" step="100" placeholder="例：3000">
+      </fieldset>
+
+      <div class="result" id="result" aria-live="polite">
+        <dl><dt>毎月の固定費</dt><dd id="out-month">0円</dd></dl>
+        <dl><dt>年間の固定費</dt><dd id="out-year">0円</dd></dl>
+        <dl class="total"><dt>10年で見た総額</dt><dd id="out-ten">0円</dd></dl>
+      </div>
+      <p class="hint" style="margin-top:12px">カード年会費は12か月で割って毎月分に加算しています。</p>
+    </form>
+  </section>
+
+  <section aria-labelledby="howto">
+    <h2 class="sec" id="howto">結果の使い方</h2>
+    <ol>
+      <li>年間の金額を見て、<strong>減らしたい項目を1つだけ</strong>決めます。</li>
+      <li>その項目の「契約期間の残り」「解約金」を確認します。</li>
+      <li>比較候補を2〜3に絞り、月額ではなく<strong>年間の総額</strong>で比べます。</li>
+    </ol>
+    <p class="note">この計算機は目安を出すものです。実際の請求額は日割り・手数料・割引の適用で変動します。</p>
+    <p><a href="../articles/fixed-cost-3steps.html">→ 固定費の見直し3ステップを読む</a></p>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <nav aria-label="サイト情報">
+      <a href="../about.html">運営について</a>
+      <a href="../disclaimer.html">広告表示・免責</a>
+      <a href="../privacy.html">プライバシーポリシー</a>
+      <a href="../sitemap.xml">サイトマップ</a>
+    </nav>
+    <p>料金・キャンペーン内容は変更されることがあります。お申込み前に必ず各公式サイトで最新の条件をご確認ください。</p>
+    <p>&copy; <span data-year>2026</span> くらし比較ラボ</p>
+  </div>
+</footer>
+<script src="../assets/js/app.js" defer></script>
+<script>
+(function () {
+  'use strict';
+  var form = document.getElementById('calc-form');
+  if (!form) return;
+  var ids = ['mobile', 'net', 'lesson'];
+  var outMonth = document.getElementById('out-month');
+  var outYear = document.getElementById('out-year');
+  var outTen = document.getElementById('out-ten');
+
+  function yen(n) { return n.toLocaleString('ja-JP') + '円'; }
+  function num(id) {
+    var v = parseFloat(document.getElementById(id).value);
+    return isNaN(v) || v < 0 ? 0 : v;
+  }
+
+  function update() {
+    var monthly = ids.reduce(function (sum, id) { return sum + num(id); }, 0);
+    var annualFee = num('card');
+    var perMonth = monthly + annualFee / 12;
+    var year = perMonth * 12;
+    outMonth.textContent = yen(Math.round(monthly + Math.round(annualFee / 12)));
+    outYear.textContent = yen(Math.round(year));
+    outTen.textContent = yen(Math.round(year * 10));
+  }
+
+  form.addEventListener('input', update);
+  update();
+})();
+</script>
+</body>
+</html>

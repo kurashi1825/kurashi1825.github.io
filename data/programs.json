@@ -2,7 +2,7 @@
   "site": {
     "brand": "くらし比較ラボ",
     "tagline": "固定費を、毎月すこしだけ軽く。",
-    "baseUrl": "https://example.github.io/kurashi-hikaku-lab/",
+    "baseUrl": "https://kurashi-hikaku-lab.github.io/",
     "updatedAt": "2026-11-15",
     "aspMediaId": "a26110277325",
     "note": "料金・キャンペーンは変動します。掲載時は必ず公式サイトで実測し、verifiedAt を更新すること。"

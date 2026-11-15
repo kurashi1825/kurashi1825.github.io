@@ -37,13 +37,13 @@ niche-compare-site/
 
 ## 2. 公開手順（1回だけ）
 
-1. **匿名のOrganizationを作る**（公開URLに `heejae` を出さないため）
-   - `https://github.com/organizations/plan` → Free → 組織名は例: `kurashi-hikaku-lab`
-   - Organization の Pages URL は `https://<org>.github.io/` になり、個人アカウント名は出ません。
-2. その Organization に `niche-compare-site` リポジトリ（**Public**）を作成し、このフォルダの中身を push。
+1. **匿名のOrganizationを作る**（公開URLに個人アカウント名を出さないため）
+   - `https://github.com/organizations/plan` → Free → 組織名: **`kurashi-hikaku-lab`**（決定済み）
+   - Pages URLは `https://kurashi-hikaku-lab.github.io/` になり、個人アカウント名は出ません。
+2. Organization に **`kurashi-hikaku-lab.github.io`** という名前の Public リポジトリを作成し、このフォルダの中身を push。
+   - リポジトリ名を `<org>.github.io` にすると、サイトが `https://kurashi-hikaku-lab.github.io/` 直下に出ます（404.html とサイト内の絶対パスはこの前提）。
 3. リポジトリ → Settings → Pages → Source = **GitHub Actions**。
-4. push すると `.github/workflows/pages.yml` が走り、`https://<org>.github.io/niche-compare-site/` で公開。
-   - リポジトリ名を `<org>.github.io` にすると `https://<org>.github.io/` 直下に出ます（おすすめ）。
+4. push すると `.github/workflows/pages.yml` が走り、`https://kurashi-hikaku-lab.github.io/` で公開。
 5. 公開後にURLをA8.netに**副サイト**として登録（下記）。
 
 ### 代替（ドメインを持っている場合）
@@ -57,7 +57,7 @@ niche-compare-site/
 |---|---|
 | メディア種別 | Webサイト・ブログ |
 | サイト名 | くらし比較ラボ |
-| URL | 公開URL |
+| URL | `https://kurashi-hikaku-lab.github.io/` |
 | カテゴリ | 暮らし・生活（または 金融・投資） |
 | 開設日 | 公開日 |
 | 月間訪問者数／PV | 実測値（公開直後は0でよい） |
@@ -91,13 +91,16 @@ niche-compare-site/
 
 ## 6. 公開前チェックリスト
 
+```bash
+python3 scripts/prepublish_check.py          # 実名・内部IDの混入、リンク切れ、title/description
+python3 scripts/prepublish_check.py --strict # 公開直前（プレースホルダ残りも失敗扱い）
+```
+
 - [ ] `example.invalid` を実URLへ置換（`grep -rn "example.invalid" .` で0件）
-- [ ] `example.github.io/kurashi-hikaku-lab` を実URLへ置換（canonical / og:url / sitemap / robots / JSON-LD）
-- [ ] `about.html` のお問い合わせ窓口を実際の連絡先に
-- [ ] 全ページに【PR】表記がある（実装済み・要確認）
+- [ ] `about.html` のお問い合わせ窓口が有効（**gmlcks102@gmail.com** を設定済み）
+- [ ] 全ページにアフィリエイト表記がある（実装済み・要確認）
 - [ ] 料金・条件を書いた場合は確認日と出典を併記
-- [ ] 実名・個人情報（`heejae` / 本名 / 自宅住所 / 電話番号）が1文字も無い
-      `grep -rin "heejae\|희재\|노희재\|玉川" . --include="*.html" --include="*.md" --include="*.xml"` で0件
+- [ ] 実名・自宅住所・電話番号・既存アカウントIDが1文字も無い（`prepublish_check.py` が検査）
 
 ## 7. 技術メモ
 

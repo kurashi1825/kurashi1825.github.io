@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://example.github.io/kurashi-hikaku-lab/sitemap.xml
+Sitemap: https://kurashi-hikaku-lab.github.io/sitemap.xml
