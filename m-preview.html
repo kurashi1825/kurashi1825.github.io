@@ -8,17 +8,31 @@
 <meta name="robots" content="noindex,nofollow">
 <style>
   body { margin: 0; background: #e7ece9; font-family: -apple-system, "Hiragino Kaku Gothic ProN", sans-serif; }
-  .row { display: flex; gap: 14px; padding: 10px 12px; }
+  .row { display: flex; gap: 12px; padding: 8px 10px; }
   .col { width: 390px; flex: none; }
-  .cap { font-size: 12px; margin: 0 0 5px; color: #17324a; font-weight: 700; }
-  iframe { width: 390px; height: 844px; border: 1px solid #b9c6c1; background: #fff; display: block; }
+  .cap { font-size: 11.5px; margin: 0 0 4px; color: #17324a; font-weight: 700; }
+  iframe { width: 390px; height: 900px; border: 1px solid #b9c6c1; background: #fff; display: block; }
 </style>
 </head>
 <body>
 <div class="row">
-  <div class="col"><p class="cap">1) 3行まとめ＋申込ボタン（iPhone幅390px）</p><iframe src="categories/cashback.html" title="3行まとめ"></iframe></div>
-  <div class="col"><p class="cap">2) 早見表（カード表示・横スクロールなし）</p><iframe src="categories/cashback.html#table" title="早見表"></iframe></div>
-  <div class="col"><p class="cap">3) 記事の3行まとめ（例：ホームルーターと光回線）</p><iframe src="articles/home-router-or-hikari.html" title="記事"></iframe></div>
+  <div class="col"><p class="cap">1) 3行まとめ＋申込ボタン（390px）</p><iframe id="fa" src="categories/cashback.html" title="3行まとめ"></iframe></div>
+  <div class="col"><p class="cap">2) 早見表（カード表示・横スクロールなし）</p><iframe id="fb" src="categories/cashback.html" title="早見表"></iframe></div>
+  <div class="col"><p class="cap">3) 記事の3行まとめ（390px）</p><iframe id="fc" src="articles/home-router-or-hikari.html" title="記事"></iframe></div>
 </div>
+<script>
+  function jumpTo(id, targetId, offset) {
+    var f = document.getElementById(id);
+    if (!f) return;
+    f.addEventListener('load', function () {
+      var w = f.contentWindow, d = w.document;
+      var t = d.getElementById(targetId);
+      if (!t) return;
+      w.scrollTo({ top: t.getBoundingClientRect().top + w.scrollY - offset, behavior: 'instant' });
+    });
+  }
+  jumpTo('fb', 'table', 66);
+  jumpTo('fc', 's3', 60);
+</script>
 </body>
 </html>
