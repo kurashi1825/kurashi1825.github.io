@@ -4,7 +4,7 @@
 ビルド不要の HTML/CSS/JS で、GitHub Pages にそのまま置けます。
 
 - 想定ホスト: GitHub Pages（無料・サーバー費0円）
-- 公開URLの例: `https://<org>.github.io/kurashi-hikaku-lab/`
+- 公開URLの例: `https://<org>.github.io/kurashi1825/`
 - 収益: A8.net の高単価プログラム（提携申請は管理画面から）
 
 ---
@@ -38,12 +38,12 @@ niche-compare-site/
 ## 2. 公開手順（1回だけ）
 
 1. **匿名のOrganizationを作る**（公開URLに個人アカウント名を出さないため）
-   - `https://github.com/organizations/plan` → Free → 組織名: **`kurashi-hikaku-lab`**（決定済み）
-   - Pages URLは `https://kurashi-hikaku-lab.github.io/` になり、個人アカウント名は出ません。
-2. Organization に **`kurashi-hikaku-lab.github.io`** という名前の Public リポジトリを作成し、このフォルダの中身を push。
-   - リポジトリ名を `<org>.github.io` にすると、サイトが `https://kurashi-hikaku-lab.github.io/` 直下に出ます（404.html とサイト内の絶対パスはこの前提）。
+   - `https://github.com/organizations/plan` → Free → 組織名: **`kurashi1825`**（決定済み）
+   - Pages URLは `https://kurashi1825.github.io/` になり、個人アカウント名は出ません。
+2. Organization に **`kurashi1825.github.io`** という名前の Public リポジトリを作成し、このフォルダの中身を push。
+   - リポジトリ名を `<org>.github.io` にすると、サイトが `https://kurashi1825.github.io/` 直下に出ます（404.html とサイト内の絶対パスはこの前提）。
 3. リポジトリ → Settings → Pages → Source = **GitHub Actions**。
-4. push すると `.github/workflows/pages.yml` が走り、`https://kurashi-hikaku-lab.github.io/` で公開。
+4. push すると `.github/workflows/pages.yml` が走り、`https://kurashi1825.github.io/` で公開。
 5. 公開後にURLをA8.netに**副サイト**として登録（下記）。
 
 ### 代替（ドメインを持っている場合）
@@ -57,7 +57,7 @@ niche-compare-site/
 |---|---|
 | メディア種別 | Webサイト・ブログ |
 | サイト名 | くらし比較ラボ |
-| URL | `https://kurashi-hikaku-lab.github.io/` |
+| URL | `https://kurashi1825.github.io/` |
 | カテゴリ | 暮らし・生活（または 金融・投資） |
 | 開設日 | 公開日 |
 | 月間訪問者数／PV | 実測値（公開直後は0でよい） |
