@@ -3,8 +3,9 @@
     "brand": "くらし比較ラボ",
     "tagline": "固定費を、毎月すこしだけ軽く。",
     "baseUrl": "https://kurashi1825.github.io/",
-    "updatedAt": "2026-11-15",
-    "note": "料金・キャンペーンは変動します。掲載時は必ず公式サイトで実測し、verifiedAt を更新すること。"
+    "updatedAt": "2026-11-16",
+    "note": "料金・キャンペーンは変動します。掲載時は必ず公式サイトで実測し、verifiedAt を更新すること。",
+    "linkNote": "提携済みはA8アフィリエイトリンク、審査中は広告主公式サイトへ仮リンク（承認後に差し替え）。"
   },
   "categories": [
     {
@@ -12,6 +13,50 @@
       "name": "格安SIM・スマホ",
       "lead": "毎月のスマホ代を、使い方に合わせて組み替える。",
       "programs": [
+        {
+          "name": "LIBMO",
+          "pid": "s00000017964001",
+          "kind": "格安SIM",
+          "bestFor": "端末セットで初期設定の手間を減らしたい人",
+          "notes": [
+            "端末あり／なしで料金体系が分かれる"
+          ],
+          "priceHint": null,
+          "verifiedAt": null,
+          "cta": "https://px.a8.net/svt/ejp?a8mat=4BGMK5+6UHHZU+3UM0+5YRHE",
+          "affiliate": true,
+          "linkStatus": "提携済み（A8実リンク）"
+        },
+        {
+          "name": "REN SIM（レンシム）",
+          "pid": "s00000024354003",
+          "kind": "レンタルSIM",
+          "bestFor": "1か月だけ、契約なしでSIMを使いたい人",
+          "notes": [
+            "契約不要で1か月から借りられる",
+            "旅行・一時利用・予備回線に向く"
+          ],
+          "priceHint": null,
+          "verifiedAt": null,
+          "cta": "https://px.a8.net/svt/ejp?a8mat=4BGMK5+6W9ST6+57X0+HVFKY",
+          "affiliate": true,
+          "linkStatus": "提携済み（A8実リンク）"
+        },
+        {
+          "name": "BB.exciteモバイル Fit",
+          "pid": "s00000000979014",
+          "kind": "格安SIM（docomo回線）",
+          "bestFor": "データをあまり使わない人・予備のスマホ",
+          "notes": [
+            "少ないデータ量を安く使うプラン",
+            "申込み区分と端末条件を公式で確認"
+          ],
+          "priceHint": null,
+          "verifiedAt": null,
+          "cta": "https://px.a8.net/svt/ejp?a8mat=4BGMK5+6AU716+7JY+2BCWEQ",
+          "affiliate": true,
+          "linkStatus": "提携済み（A8実リンク）"
+        },
         {
           "name": "UQ mobile",
           "pid": "s00000014884001",
@@ -23,7 +68,9 @@
           ],
           "priceHint": null,
           "verifiedAt": null,
-          "cta": "https://example.invalid/a8/s00000014884001"
+          "cta": "https://www.uqmobile.jp/",
+          "affiliate": false,
+          "linkStatus": "提携審査中（公式サイトへ仮リンク）"
         },
         {
           "name": "J:COM 格安スマホ・格安SIM",
@@ -35,19 +82,9 @@
           ],
           "priceHint": null,
           "verifiedAt": null,
-          "cta": "https://example.invalid/a8/s00000019927002"
-        },
-        {
-          "name": "LIBMO",
-          "pid": "s00000017964001",
-          "kind": "格安SIM",
-          "bestFor": "端末セットで初期設定の手間を減らしたい人",
-          "notes": [
-            "端末あり／なしで料金体系が分かれる"
-          ],
-          "priceHint": null,
-          "verifiedAt": null,
-          "cta": "https://example.invalid/a8/s00000017964001"
+          "cta": "https://www.jcom.co.jp/",
+          "affiliate": false,
+          "linkStatus": "提携審査中（公式サイトへ仮リンク）"
         },
         {
           "name": "トーンモバイル",
@@ -59,7 +96,9 @@
           ],
           "priceHint": null,
           "verifiedAt": null,
-          "cta": "https://example.invalid/a8/s00000015382001"
+          "cta": "https://tone.ne.jp/",
+          "affiliate": false,
+          "linkStatus": "提携審査中（公式サイトへ仮リンク）"
         },
         {
           "name": "イオシス（中古スマホ）",
@@ -71,7 +110,9 @@
           ],
           "priceHint": null,
           "verifiedAt": null,
-          "cta": "https://example.invalid/a8/s00000004593001"
+          "cta": "https://iosys.co.jp/",
+          "affiliate": false,
+          "linkStatus": "提携審査中（公式サイトへ仮リンク）"
         }
       ]
     },
@@ -80,18 +121,6 @@
       "name": "ホームルーター・光回線",
       "lead": "工事あり／なし、置くだけ／引く、の分かれ目から。",
       "programs": [
-        {
-          "name": "UQ WiMAX",
-          "pid": "s00000012129001",
-          "kind": "ホームルーター／モバイル",
-          "bestFor": "工事なしで固定回線の代わりを作りたい人",
-          "notes": [
-            "持ち運べるタイプと据え置きタイプがある"
-          ],
-          "priceHint": null,
-          "verifiedAt": null,
-          "cta": "https://example.invalid/a8/s00000012129001"
-        },
         {
           "name": "とくとくBBホームWi-Fi",
           "pid": "s00000000018046",
@@ -103,7 +132,9 @@
           ],
           "priceHint": null,
           "verifiedAt": null,
-          "cta": "https://example.invalid/a8/s00000000018046"
+          "cta": "https://px.a8.net/svt/ejp?a8mat=4BGMK5+73F02I+50+7LVTPE",
+          "affiliate": true,
+          "linkStatus": "提携済み（A8実リンク）"
         },
         {
           "name": "SoftBank Air",
@@ -115,7 +146,67 @@
           ],
           "priceHint": null,
           "verifiedAt": null,
-          "cta": "https://example.invalid/a8/s00000014546016"
+          "cta": "https://px.a8.net/svt/ejp?a8mat=4BGMK5+74LVA2+348K+2NBPO2",
+          "affiliate": true,
+          "linkStatus": "提携済み（A8実リンク）"
+        },
+        {
+          "name": "イツキ光",
+          "pid": "s00000022801001",
+          "kind": "光回線",
+          "bestFor": "新規開通のキャンペーン条件を比べたい人",
+          "notes": [
+            "新規／転用／事業者変更で区分が分かれる"
+          ],
+          "priceHint": null,
+          "verifiedAt": null,
+          "cta": "https://px.a8.net/svt/ejp?a8mat=4BGMK5+6WV8EY+4VXM+5YRHE",
+          "affiliate": true,
+          "linkStatus": "提携済み（A8実リンク）"
+        },
+        {
+          "name": "おきらくホームWi-Fi",
+          "pid": "s00000014546025",
+          "kind": "ホームルーター（レンタル）",
+          "bestFor": "安く、すぐにネットを使りたい人",
+          "notes": [
+            "機器代0円で、コンセントに挿すだけ",
+            "縛りなしプランも選べる"
+          ],
+          "priceHint": null,
+          "verifiedAt": null,
+          "cta": "https://px.a8.net/svt/ejp?a8mat=4BGMK5+757AVU+348K+44UKYA",
+          "affiliate": true,
+          "linkStatus": "提携済み（A8実リンク）"
+        },
+        {
+          "name": "＠T COMヒカリ",
+          "pid": "s00000014546023",
+          "kind": "光回線（光コラボ）",
+          "bestFor": "光回線をできるだけ早く開通させたい人",
+          "notes": [
+            "キャッシュバックの受け取り時期が早い",
+            "新規／転用で条件が分かれる"
+          ],
+          "priceHint": null,
+          "verifiedAt": null,
+          "cta": "https://px.a8.net/svt/ejp?a8mat=4BGMK5+6XGO0Q+348K+3SXWUQ",
+          "affiliate": true,
+          "linkStatus": "提携済み（A8実リンク）"
+        },
+        {
+          "name": "UQ WiMAX",
+          "pid": "s00000012129001",
+          "kind": "ホームルーター／モバイル",
+          "bestFor": "工事なしで固定回線の代わりを作りたい人",
+          "notes": [
+            "持ち運べるタイプと据え置きタイプがある"
+          ],
+          "priceHint": null,
+          "verifiedAt": null,
+          "cta": "https://www.uqwimax.jp/",
+          "affiliate": false,
+          "linkStatus": "提携審査中（公式サイトへ仮リンク）"
         },
         {
           "name": "ビッグローブ光",
@@ -128,19 +219,9 @@
           ],
           "priceHint": null,
           "verifiedAt": null,
-          "cta": "https://example.invalid/a8/s00000023325001"
-        },
-        {
-          "name": "イツキ光",
-          "pid": "s00000022801001",
-          "kind": "光回線",
-          "bestFor": "新規開通のキャンペーン条件を比べたい人",
-          "notes": [
-            "新規／転用／事業者変更で区分が分かれる"
-          ],
-          "priceHint": null,
-          "verifiedAt": null,
-          "cta": "https://example.invalid/a8/s00000022801001"
+          "cta": "https://join.biglobe.ne.jp/ftth/",
+          "affiliate": false,
+          "linkStatus": "提携審査中（公式サイトへ仮リンク）"
         }
       ]
     },
@@ -160,7 +241,9 @@
           ],
           "priceHint": null,
           "verifiedAt": null,
-          "cta": "https://example.invalid/a8/s00000023355003"
+          "cta": "https://www.smbc-card.com/",
+          "affiliate": false,
+          "linkStatus": "提携審査中（公式サイトへ仮リンク）"
         },
         {
           "name": "エポスカード",
@@ -172,7 +255,9 @@
           ],
           "priceHint": null,
           "verifiedAt": null,
-          "cta": "https://example.invalid/a8/s00000015110002"
+          "cta": "https://www.eposcard.co.jp/",
+          "affiliate": false,
+          "linkStatus": "提携審査中（公式サイトへ仮リンク）"
         },
         {
           "name": "TOKYU CARD",
@@ -184,7 +269,9 @@
           ],
           "priceHint": null,
           "verifiedAt": null,
-          "cta": "https://example.invalid/a8/s00000023297001"
+          "cta": "https://www.topcard.co.jp/",
+          "affiliate": false,
+          "linkStatus": "提携審査中（公式サイトへ仮リンク）"
         },
         {
           "name": "リクルートカード",
@@ -196,7 +283,9 @@
           ],
           "priceHint": null,
           "verifiedAt": null,
-          "cta": "https://example.invalid/a8/s00000013107008"
+          "cta": "https://recruit-card.jp/",
+          "affiliate": false,
+          "linkStatus": "提携審査中（公式サイトへ仮リンク）"
         }
       ]
     },
@@ -215,7 +304,9 @@
           ],
           "priceHint": null,
           "verifiedAt": null,
-          "cta": "https://example.invalid/a8/s00000012597001"
+          "cta": "https://smile-zemi.jp/",
+          "affiliate": false,
+          "linkStatus": "提携審査中（公式サイトへ仮リンク）"
         },
         {
           "name": "Z会の通信教育",
@@ -227,7 +318,9 @@
           ],
           "priceHint": null,
           "verifiedAt": null,
-          "cta": "https://example.invalid/a8/s00000001817002"
+          "cta": "https://www.zkai.co.jp/",
+          "affiliate": false,
+          "linkStatus": "提携審査中（公式サイトへ仮リンク）"
         },
         {
           "name": "スタディサプリ 小学講座",
@@ -239,7 +332,9 @@
           ],
           "priceHint": null,
           "verifiedAt": null,
-          "cta": "https://example.invalid/a8/s00000014879006"
+          "cta": "https://studysapuri.jp/",
+          "affiliate": false,
+          "linkStatus": "提携審査中（公式サイトへ仮リンク）"
         },
         {
           "name": "東進オンライン学校",
@@ -251,7 +346,9 @@
           ],
           "priceHint": null,
           "verifiedAt": null,
-          "cta": "https://example.invalid/a8/s00000021497001"
+          "cta": "https://www.toshin-online.com/",
+          "affiliate": false,
+          "linkStatus": "提携審査中（公式サイトへ仮リンク）"
         },
         {
           "name": "ユーキャン",
@@ -263,7 +360,9 @@
           ],
           "priceHint": null,
           "verifiedAt": null,
-          "cta": "https://example.invalid/a8/s00000018254001"
+          "cta": "https://www.u-can.co.jp/",
+          "affiliate": false,
+          "linkStatus": "提携審査中（公式サイトへ仮リンク）"
         }
       ]
     }
