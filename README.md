@@ -5,7 +5,7 @@
 
 - 想定ホスト: GitHub Pages（無料・サーバー費0円）
 - 公開URLの例: `https://<org>.github.io/kurashi-hikaku-lab/`
-- 収益: A8.net の高単価プログラム（メディアID `a26110277325`）
+- 収益: A8.net の高単価プログラム（提携申請は管理画面から）
 
 ---
 
