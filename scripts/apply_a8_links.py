@@ -6,6 +6,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 CAT = ROOT / "categories"
 
 AFF = {
+    "s00000016275012": "https://px.a8.net/svt/ejp?a8mat=4BGMK5+6Y23MI+3HKU+1ZG8B6",
     "s00000000018046": "https://px.a8.net/svt/ejp?a8mat=4BGMK5+73F02I+50+7LVTPE",
     "s00000014546016": "https://px.a8.net/svt/ejp?a8mat=4BGMK5+74LVA2+348K+2NBPO2",
     "s00000014546025": "https://px.a8.net/svt/ejp?a8mat=4BGMK5+757AVU+348K+44UKYA",
