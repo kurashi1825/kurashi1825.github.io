@@ -3,7 +3,7 @@
     "brand": "くらし比較ラボ",
     "tagline": "固定費を、毎月すこしだけ軽く。",
     "baseUrl": "https://kurashi1825.github.io/",
-    "updatedAt": "2026-11-16",
+    "updatedAt": "2026-11-17",
     "note": "料金・キャンペーンは変動します。掲載時は必ず公式サイトで実測し、verifiedAt を更新すること。",
     "linkNote": "提携済みはA8アフィリエイトリンク、審査中は広告主公式サイトへ仮リンク（承認後に差し替え）。"
   },
@@ -98,6 +98,21 @@
           "cta": "https://iosys.co.jp/",
           "affiliate": false,
           "linkStatus": "提携審査中（公式サイトへ仮リンク）"
+        },
+        {
+          "name": "REN SIM（レンタルSIM）",
+          "pid": "s00000024354003",
+          "kind": "レンタルSIM（100GB・SoftBank回線）",
+          "bestFor": "余った端末に挿して大容量データを使いたい人",
+          "notes": [
+            "契約期間の縛りなし・審査不要（公式表記）",
+            "2026-11-17時点でA8の広告リンク先 /lp が404のため掲載見送り"
+          ],
+          "priceHint": null,
+          "verifiedAt": "2026-11-17",
+          "cta": "https://px.a8.net/svt/ejp?a8mat=4BGMK5+6W9ST6+57X0+HVFKY",
+          "affiliate": true,
+          "linkStatus": "提携済みだが広告主LPが404（掲載見送り）"
         }
       ]
     },
@@ -236,13 +251,14 @@
           "kind": "年会費永久無料",
           "bestFor": "マルイ系の店舗を使う機会がある人",
           "notes": [
-            "即時提携プログラム（審査あり）"
+            "入会金・年会費永年無料、18歳以上、発行審査あり",
+            "テキストリンク禁止のためバナー（300×250／320×50）で掲載"
           ],
           "priceHint": null,
-          "verifiedAt": null,
-          "cta": "https://www.eposcard.co.jp/",
-          "affiliate": false,
-          "linkStatus": "提携審査中（公式サイトへ仮リンク）"
+          "verifiedAt": "2026-11-17",
+          "cta": "https://px.a8.net/svt/ejp?a8mat=4BGMK5+62I4KA+38L8+BXQOH",
+          "affiliate": true,
+          "linkStatus": "提携済み（A8実リンク・バナー素材のみ／テキスト不可）"
         },
         {
           "name": "TOKYU CARD",
@@ -299,13 +315,15 @@
           "kind": "通信教育",
           "bestFor": "記述・思考力を重視したい家庭",
           "notes": [
-            "学年ごとに講座が分かれる"
+            "資料請求は無料・入会金0円（公式表記）",
+            "報酬条件: 資料請求619円／入会2,000円（幼小）・5,000円（中学）",
+            "表示は「PR：Ｚ会」＋全角「Ｚ会」表記が必要"
           ],
           "priceHint": null,
-          "verifiedAt": null,
-          "cta": "https://www.zkai.co.jp/",
-          "affiliate": false,
-          "linkStatus": "提携審査中（公式サイトへ仮リンク）"
+          "verifiedAt": "2026-11-17",
+          "cta": "https://px.a8.net/svt/ejp?a8mat=4BGMK5+7N2B16+E0Q+DOJHE",
+          "affiliate": true,
+          "linkStatus": "提携済み（A8実リンク・テキスト素材298）"
         },
         {
           "name": "スタディサプリ 小学講座",
