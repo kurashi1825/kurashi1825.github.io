@@ -331,13 +331,16 @@
           "kind": "オンライン学習",
           "bestFor": "月額を抑えて動画で学びたい人",
           "notes": [
-            "ベーシックコースの有料登録が対象"
+            "ベーシックコースの有料登録が対象",
+            "報酬条件: 新規有料登録3,000円（ベーシックコース）",
+            "月額: 12か月一括 月あたり1,815円（総額21,780円）／月払い2,178円（いずれも税込・Web申込み）",
+            "初回は14日間無料体験（Webサイト＋クレジットカード決済限定、申込み日を含む）"
           ],
-          "priceHint": null,
-          "verifiedAt": null,
-          "cta": "https://studysapuri.jp/",
-          "affiliate": false,
-          "linkStatus": "提携審査中（公式サイトへ仮リンク）"
+          "priceHint": "月あたり1,815円（12か月一括・税込）",
+          "verifiedAt": "2026-11-20",
+          "cta": "https://px.a8.net/svt/ejp?a8mat=4BGMK5+7O968Q+36T2+ZQFQA",
+          "affiliate": true,
+          "linkStatus": "提携済み（A8実リンク・テキスト素材002）"
         },
         {
           "name": "東進オンライン学校",

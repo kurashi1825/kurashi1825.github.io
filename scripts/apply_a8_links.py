@@ -7,6 +7,7 @@ CAT = ROOT / "categories"
 
 AFF = {
     "s00000001817002": "https://px.a8.net/svt/ejp?a8mat=4BGMK5+7N2B16+E0Q+DOJHE",  # Ｚ会 資料請求(テキスト298)
+    "s00000014879006": "https://px.a8.net/svt/ejp?a8mat=4BGMK5+7O968Q+36T2+ZQFQA",  # スタディサプリ小学講座(テキスト002)
     "s00000015110002": "https://px.a8.net/svt/ejp?a8mat=4BGMK5+62I4KA+38L8+BXQOH",  # エポスカード(バナーのみ・テキスト不可)
     "s00000016275012": "https://px.a8.net/svt/ejp?a8mat=4BGMK5+6Y23MI+3HKU+1ZG8B6",
     "s00000000018046": "https://px.a8.net/svt/ejp?a8mat=4BGMK5+73F02I+50+7LVTPE",
@@ -31,7 +32,6 @@ OFFICIAL = {
     "s00000013107008": "https://recruit-card.jp/",
     "s00000012597001": "https://smile-zemi.jp/",
     "s00000001817002": "https://www.zkai.co.jp/",
-    "s00000014879006": "https://studysapuri.jp/",
     "s00000021497001": "https://www.toshin-online.com/",
     "s00000018254001": "https://www.u-can.co.jp/",
 }
