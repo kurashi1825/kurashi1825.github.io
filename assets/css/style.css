@@ -659,3 +659,6 @@ section[id] { scroll-margin-top: 74px; }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; }
 }
+
+/* A8 1×1 インプレッション計測タグ用の入れ物。画像はそのまま読み込ませ、レイアウトには影響させない */
+.a8-pixels { height: 0; overflow: hidden; line-height: 0; }
